@@ -1,0 +1,64 @@
+*{
+    padding:0px;
+    margin:0px
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+body{
+    font-family: Arial;
+    background-image: url(../imagens/wallpaper.jpg);
+    background-size: 100%;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 30px;
+}
+input[type="checkbox"]
+{
+    display: none;
+}
+nav
+{
+    background-color: rgba(16,16,16,.5);
+    width: 350px;
+    height: 1000px;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+}
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(350px);
+}
+
+ul{
+   
+   top: 50px;
+   position: absolute;
+   width: 100%;
+}
+
+a{
+    
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+
+a:hover{
+    background-color: rgb(177, 177, 177);
+    color: black;
+}
+
+label{
+    
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    
+}
